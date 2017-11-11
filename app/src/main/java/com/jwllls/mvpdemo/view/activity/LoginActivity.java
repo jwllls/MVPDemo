@@ -64,9 +64,8 @@ public class LoginActivity extends AppCompatActivity implements LoginContract.Vi
     }
 
     @Override
-    public void toastFaildMsg() {
+    public void toastFailMsg() {
         Toast.makeText(this, "登录失败", Toast.LENGTH_SHORT).show();
     }
-
 
 }

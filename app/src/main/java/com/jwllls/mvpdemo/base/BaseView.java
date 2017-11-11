@@ -6,6 +6,6 @@ package com.jwllls.mvpdemo.base;
 
 public interface BaseView<T> {
 
-    void setPresenter(T presenter);  //用于绑定View
+    void setPresenter(T presenter);  //该方法用于绑定View
 
 }
